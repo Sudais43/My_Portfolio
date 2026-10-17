@@ -1,4 +1,4 @@
-# 🚀 Developer Portfolio — [Your Name]
+# 🚀 Developer Portfolio — [Muhammad Sudais]
 
 Welcome to the repository for my personal portfolio! I am a software developer transitioning my career focus from **Flutter mobile development** into **Java Backend Engineering**. 
 
@@ -27,4 +27,4 @@ Having built and shipped client-side applications with Flutter, I developed a st
 
 1. **Clone the repository**
    ```bash
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+   https://github.com/Sudais43/My_Portfolio.git
