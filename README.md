@@ -19,7 +19,7 @@ Having built and shipped client-side applications with Flutter, I developed a st
 
 ## 🛠️ Portfolio Website Tech Stack
 *This portfolio website is built with:*
-- **Framework:** [e.g., React / Next.js / HTML-CSS / Flutter Web]
+- **Framework:** [e.g., React / Typescript.js /]
 - **Styling:** [e.g., Tailwind CSS / Vanilla CSS]
 - **Deployment:** [e.g., GitHub Pages / Vercel / Netlify]
 
