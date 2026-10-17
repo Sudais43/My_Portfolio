@@ -1,78 +1,63 @@
 ---
-title: Eco-friendly Product Marketplace
-description: An e-commerce platform dedicated to eco-friendly products where users can buy, sell, and learn about sustainable living.
-date: 2024-05-26
-website: https://example.com/
+title: Skin Flirt - Doctor Appointment & Health Management App
+description: A doctor appointment booking and health management mobile application powered by Flutter, Firebase, a custom backend API, and Provider state management.
+date: 2026-06-15
+website: https://github.com/
 github: https://github.com/
 tags:
-  - label: HTML
-  - label: CSS
-  - label: JavaScript
-  - label: React
-  - label: Node.js
-  - label: Express
-  - label: MongoDB
+  - label: Flutter
+  - label: Dart
+  - label: Firebase
+  - label: Provider
+  - label: API
+  - label: Healthcare
+  - label: Mobile
 ---
 
-This is an e-commerce platform dedicated to eco-friendly products where users can buy, sell, and learn about sustainable living. The goal of this project was to promote sustainable living by providing a marketplace for eco-friendly products. Working on this project helped me understand the intricacies of e-commerce development and the importance of sustainability in business.
+This is my health management and doctor appointment application named **Skin Flirt**, designed to streamline healthcare accessibility and patient management. Alongside Firebase and a custom-built backend API, I implemented the **Provider** package for predictable, reactive state management across the application.
 
 ## Features
 
-- **Eco-friendly Product Listings**: A curated selection of sustainable and eco-friendly products.
-- **User Dashboard**: Personalized dashboards for buyers and sellers.
-- **Product Reviews**: Users can leave reviews and ratings for products.
-- **Sustainability Tips**: Educational content to promote sustainable living.
-- **Secure Transactions**: Ensured safe payment options and checkout processes.
+- **Doctor Discovery & Profiles**: Browse certified medical specialists, view profiles, and check live availability fetched via custom API endpoints.
+- **Appointment Booking System**: Reliable scheduling workflow communicating directly with the custom backend to manage reservations seamlessly.
+- **Health Records Management**: Securely store and access medical history, prescriptions, and health checkup reports.
+- **Real-Time Notifications**: Automated reminders for upcoming appointments and medication schedules.
+- **Secure Authentication**: Robust user authentication workflows separating patient and doctor portals.
 
 ## Tech Stack
 
-- **Frontend**: Built with **React** to provide a responsive and dynamic user experience.
-- **Backend**: Powered by **Node.js** with **Express** to handle server-side logic and API endpoints.
-- **Database**: **MongoDB** for storing product data, user details, and transaction history.
-- **Styling**: Designed with **CSS** for a clean and intuitive user interface.
-- **Payment Integration**: Implemented secure payments using **Stripe** or **PayPal** APIs.
-- **Hosting**: Deployed on **Vercel** or **Heroku** for easy accessibility.
+- **Frontend & Mobile**: Built using **Flutter** and **Dart** for cross-platform performance on Android and iOS.
+- **State Management**: Utilized **Provider** to efficiently manage application state, handle UI re-renders, and decouple business logic.
+- **Backend & API**: Developed and consumed a **Custom-Built Backend API** using HTTP clients (`Dio`) for data communication.
+- **Database & Cloud**: Powered by **Firebase** for real-time services, cloud messaging, and authentication.
 
 ## Implementation
 
-### Frontend
+### Frontend & UI
 
-- **React** for a modular component-based architecture.
-- **React Router** for smooth navigation between pages.
-- Integration with third-party libraries for animations and rich UI experiences.
+- Custom **Flutter** widgets tailored for responsive booking calendars and interactive user dashboards.
+- Clean separation of presentation layers and model data using ChangeNotifier classes.
 
-### Backend
+### State Management & API Integration
 
-- Built with **Express.js** to create RESTful APIs.
-- Secure user authentication using **JWT** and password encryption with **bcrypt**.
-- APIs for managing product listings, user profiles, and order processing.
-
-### Database
-
-- **MongoDB Atlas** for a cloud-based NoSQL database solution.
-- Indexing for efficient search and filtering of products.
-- Aggregation pipelines to support analytics and user insights.
-
-### Deployment
-
-- Frontend hosted on **Vercel** with CI/CD for automated deployment.
-- Backend hosted on **AWS** or **Render** with Docker support.
+- Implemented **Provider** to manage user sessions, appointment states, and dynamic doctor directories reactively.
+- Configured **Dio** for advanced network handling and error management when communicating with the custom API.
 
 ## How It Works
 
-1. **User Onboarding**: Users sign up or log in to access the marketplace.
-2. **Product Browsing**: Explore eco-friendly products using filters and search.
-3. **Buying & Selling**: Buyers can place orders, and sellers can manage their listings.
-4. **Learning Hub**: Access sustainability tips and guides.
+1. **User Sign-Up**: Patients create a profile and log in via managed authentication flows.
+2. **Specialist Search**: The app fetches doctor directories dynamically through the custom API, updating the UI via Provider.
+3. **Seamless Booking**: Selecting a time slot dispatches a request to the backend API, updating local states instantly.
+4. **Consultation Tracking**: Receive reminders, view medical records, and track consultation histories synced across the platform.
 
 ## Challenges Faced
 
-- Managing secure transactions while keeping user data private.
-- Creating a seamless experience for buyers and sellers with intuitive UI/UX.
-- Handling scalability to accommodate growing product listings and users.
+- Managing asynchronous API states and loading indicators efficiently using Provider without unnecessary UI rebuilds.
+- Handling network latency and token-based authentication securely between the Flutter client and the custom API.
+- Ensuring real-time synchronization of booking statuses across multiple connected users.
 
 ## Future Enhancements
 
-- Introducing a subscription model for premium features.
-- Implementing AI-powered recommendations for personalized shopping experiences.
-- Adding a community forum for discussions around sustainability and eco-friendly living.
+- Integrating in-app video consultation features via WebRTC or Agora SDK.
+- Introducing a secure digital payment gateway for online consultation fees.
+- Adding an AI-powered preliminary symptom checker to assist with specialist recommendations.

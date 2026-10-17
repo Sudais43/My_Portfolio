@@ -2,20 +2,20 @@ import type { Metadata } from "@/types/metadata";
 
 const metadata: Metadata = {
   author: {
-    name: "John Doe",
-    username: "johndoe",
+    name: "Muhammad Sudais",
+    username: "sudais",
     label: "Designer & Developer",
   },
   site: {
-    title: "John Doe",
-    description: "Portfolio of web & UI designer/developer John Doe.",
+    title: "Muhammad Sudais",
+    description: "Portfolio of Mobile App & UI designer/developer Muhammad Sudais.",
     url: "https://www.example.com",
     keywords: [
       "web design",
       "UI design",
-      "web development",
+      "Flutter Developer",
       "portfolio",
-      "John Doe",
+      "Muhammad Sudais",
     ],
     language: "en",
     charset: "UTF-8",

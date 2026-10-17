@@ -2,27 +2,27 @@ import type { Technology } from "@/types/technology";
 
 const technologies: Technology[] = [
   {
-    name: "HTML",
+    name: "Dart",
     image: "/images/person/janedoe.jpg",
   },
   {
-    name: "CSS",
+    name: "Flutter SDK",
     image: "/images/person/emilysmith.jpg",
   },
   {
-    name: "Javascript",
+    name: "Bloc, Provider, Riverpod",
     image: "/images/person/michaeljohnson.jpg",
   },
   {
-    name: "React",
+    name: "Clean architecture",
     image: "/images/person/michaeljohnson.jpg",
   },
   {
-    name: "Next.js",
+    name: "Dependency Injection",
     image: "/images/person/michaeljohnson.jpg",
   },
   {
-    name: "Python",
+    name: "Firebase Auth, Firestore, Cloud Functions, Cloud Messaging",
     image: "/images/person/michaeljohnson.jpg",
   },
 ];

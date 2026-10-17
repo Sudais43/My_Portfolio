@@ -23,10 +23,10 @@ function About() {
                 as="p"
                 className="max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400"
               >
-                I am a passionate and creative Web Developer with a love for
-                beautiful and functional websites. I have experience working
-                with a variety of web technologies and frameworks and I am
-                always eager to learn new things and take on new challenges.
+                Flutter Developer with two internships and 1+ year of hands-on experience building cross-platform mobile applications using Flutter, 
+                Dart, and Firebase. Skilled in Clean Architecture, RESTful API integration, and state management (BLoC, Provider, Riverpod), with a 
+                track record of shipping performant, offline-first apps and modular, maintainable codebases. Seeking a Junior-to-Mid-Level Flutter 
+                Developer role to contribute technical skills and continued growth in a collaborative, agile engineering team. 
               </TextReveal>
               <div className="flex gap-2">
                 <Button asChild variant={"outline"}>

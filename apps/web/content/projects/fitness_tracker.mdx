@@ -1,78 +1,62 @@
 ---
-title: Fitness Tracker App
-description: A mobile app that helps users track their fitness activities, set goals, and monitor progress with motivational tools.
-date: 2024-05-26
-website: https://example.com/
+title: RELIV - AI Health Companion App
+description: An AI-powered health companion and monitoring app built with Flutter and Firebase, featuring sensor integration and real-time tracking.
+date: 2026-06-01
+website: https://github.com/
 github: https://github.com/
 tags:
-  - label: HTML
-  - label: CSS
-  - label: JavaScript
-  - label: React Native
-  - label: Node.js
-  - label: MongoDB
+  - label: Flutter
+  - label: Dart
+  - label: Firebase
+  - label: Clean Architecture
+  - label: AI
+  - label: Mobile
 ---
 
-This is a mobile app that helps users track their fitness activities, set goals, and monitor progress with motivational tools. I created this app to encourage people to lead a healthier lifestyle by making fitness tracking simple and engaging. The project allowed me to delve into mobile development and learn more about user-centered design and data management.
+This is my Final Year Project named **RELIV**, an AI health companion application designed to monitor user well-being, integrate sensor data, and provide personalized health insights in real time. I developed this application to bridge the gap between personal healthcare tracking and intelligent AI assistance, earning the **Best Final Year Project achievement award**.
 
 ## Features
 
-- **Activity Tracking**: Log daily fitness activities such as walking, running, cycling, and gym workouts.
-- **Goal Setting**: Users can set fitness goals for specific durations and activities.
-- **Progress Monitoring**: Visual progress reports through charts and graphs.
-- **Motivational Tools**: Daily tips, streak tracking, and achievement badges.
-- **Personalized Dashboard**: Tailored experience for users based on their fitness preferences.
+- **AI Health Companion**: Intelligent assistant that processes health metrics and offers personalized guidance.
+- **Sensor Integration**: Seamlessly connects with device sensors to track physical activity and vital metrics.
+- **Real-Time Data Sync**: Powered by Firebase for instantaneous data updates and secure cloud storage.
+- **User Dashboard**: Clean, responsive, and intuitive interface designed with Flutter and Material design guidelines.
+- **Secure Authentication**: Robust user sign-up and authentication workflows for data privacy.
 
 ## Tech Stack
 
-- **Frontend**: Built with **React Native** for cross-platform mobile app development.
-- **Backend**: **Node.js** and **Express** for handling server-side logic and API endpoints.
-- **Database**: **MongoDB** for storing user data, activity logs, and goals.
-- **Styling**: Custom styles with **CSS-in-JS** libraries like Styled Components.
-- **Charts and Graphs**: Integrated with libraries like **Victory Native** or **Recharts** for visual data representation.
-- **Hosting**: Backend deployed on **AWS** or **Heroku**, and the app distributed via **Google Play Store** and **Apple App Store**.
+- **Frontend & Mobile**: Built using **Flutter** and **Dart** for cross-platform performance across Android and iOS.
+- **Backend & Database**: Leveraged **Firebase** (Firestore, Authentication, and Cloud Functions) for real-time backend synchronization.
+- **Architecture**: Follows **Clean Architecture** patterns to maintain decoupled, testable, and scalable code.
+- **State Management**: Utilized modern state management solutions to handle complex UI states efficiently.
 
 ## Implementation
 
-### Frontend
+### Frontend & UI
 
-- **React Native** used for creating a responsive and intuitive UI across iOS and Android platforms.
-- Navigation handled with **React Navigation**.
-- Real-time feedback and updates with **WebSocket** integration.
+- Modular **Flutter** widgets designed for reusable and responsive layouts.
+- State management organized cleanly to separate business logic from UI components.
 
-### Backend
+### Backend & AI Integration
 
-- **Express.js** APIs for user authentication, activity logging, and data retrieval.
-- Secure user sessions with **JWT** and encrypted passwords.
-- Background jobs with **Node-cron** for reminders and notifications.
-
-### Database
-
-- **MongoDB** for storing user profiles, activity data, and achievements.
-- Optimized queries for fast data retrieval and updates.
-- Integration of cloud storage (e.g., **AWS S3**) for managing media uploads like user avatars.
-
-### Deployment
-
-- Backend deployed on **Render** with containerized services using Docker.
-- App published on **Google Play Store** and **Apple App Store** with automated CI/CD pipelines.
+- **Firebase** integration for secure cloud data storage and fast user authentication.
+- Custom logic to process and handle sensor streams for real-time health monitoring.
 
 ## How It Works
 
-1. **User Onboarding**: Easy registration or login via email or social accounts.
-2. **Tracking Activities**: Log fitness activities with input fields or wearable device integration.
-3. **Setting Goals**: Define personalized fitness goals and deadlines.
-4. **Monitoring Progress**: View performance trends and daily progress with visual reports.
-5. **Motivational Features**: Receive tips and unlock achievements for staying consistent.
+1. **Onboarding & Auth**: Users securely log in or create an account managed via Firebase.
+2. **Dashboard Overview**: Displays real-time health statistics, sensor readings, and AI insights.
+3. **AI Companion Interaction**: Users can interact with the AI helper for wellness suggestions and data analysis.
+4. **Data Tracking**: Continuously monitors physical metrics using built-in smartphone sensors.
 
 ## Challenges Faced
 
-- Ensuring cross-platform compatibility for a seamless user experience.
-- Handling real-time data synchronization across devices.
-- Designing an engaging and intuitive UI that motivates users.
+- Handling asynchronous data streams from device sensors without performance bottlenecks.
+- Ensuring smooth, real-time synchronization with Firebase under varying network conditions.
+- Structuring clean state management for complex reactive UI flows.
 
 ## Future Enhancements
 
-- Integration with fitness wearables like Fitbit and Apple Watch.
-- AI-driven fitness recommendations based on user activity patterns.
-- Adding social features for users to connect, compete, and collaborate with friends.
+- Integrating wearable device SDKs (like smartwatches) for direct health metric syncing.
+- Expanding AI capabilities for predictive health trend analysis.
+- Introducing a companion web dashboard for desktop review.
